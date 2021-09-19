@@ -18,4 +18,7 @@ def smallest(a,small,idx,small_idx):
       idx = idx+1
       return smallest(a[1:], small,idx,small_idx)
       
-      f = smallest([4,3,1,3,-7,-1,-10],4,0,0)
+ 
+#Function Calling 
+ans = smallest([4,3,1,3,-7,-1,-10],4,0,0)
+print(ans)
