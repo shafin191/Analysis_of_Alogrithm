@@ -6,9 +6,10 @@
 
 def find_eq_val(A,x):
   sum = A[0]
+  mul = x
   for i in range(1,len(A)):
-    sum = sum + A[i] * x
-    x = x*x
+    sum = sum + A[i] * mul
+    mul = mul*x
   return sum
   
 ans=find_eq_val([2,3,7,11],5)
